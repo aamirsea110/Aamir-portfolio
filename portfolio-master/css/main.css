@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat-Regular';
+}
+
+body {
+    background: #282a36;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: orange;
+}
+
+a.underline-link {
+    text-decoration: underline;
+}
+
+img {
+    width: 128px;
+    height: 128px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+.para-style-1 {
+    color: #aaaaaa;
+    font-family: 'Ubuntu-Regular';
+}
+
+.para-style-2 {
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.text-highlight-1 {
+    background: #dddddd;
+    color: #282a36;
+    padding: 4px;
+}
+
+#gold-text {
+    color: rgb(242, 255, 3);
+    font-size: 1.25rem;
+    font-weight: bolder;
+    font-family: 'Cinzel'
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tag {
+    background: #dddddd;
+    color: #333333;
+    padding: 4px 12px;
+    border-radius: 32px;
+    margin: 4px;
+}
+
+.section-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-all-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 100%;
+}
+
+.container-info {
+    text-align: center;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.container-info #my-image {
+    width: 196px;
+    height: 196px;
+    border-radius: 100%;
+}
+
+.container-info .main-info {
+    margin-top: 32px;
+}
+
+.container-info .main-info #name {
+    font-size: 2.25rem;
+    font-family: "Lobster-Regular", Verdana, Geneva, Tahoma, sans-serif;
+    background: -webkit-gradient(linear, left top, right top, from(#55ffff), to(#ffff55));
+    background: -o-linear-gradient(left, #55ffff, #ffff55);
+    background: linear-gradient(to right, #55ffff, #ffff55);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+}
+
+.container-info .main-info #designation {
+    font-size: 1.75rem;
+    font-family: "Lobster-Regular", Verdana, Geneva, Tahoma, sans-serif;
+    background: -webkit-gradient(linear, left top, right top, from(#55ff55), to(#5555ff));
+    background: -o-linear-gradient(left, #55ff55, #5555ff);
+    background: linear-gradient(to right, #55ff55, #5555ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+}
+
+.container-info .main-info h3 {
+    font-size: 1.5rem;
+    margin: 32px 0px 0px;
+    line-height: 3rem;
+}
+
+.container-info .contact-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-links a.link-container {
+    margin: 32px 32px;
+    display: block;
+}
+
+.contact-links a.link-container .icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+}
+
+.heading {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 32px;
+    font-family: 'Comfortaa', 'PermanentMarker-Regular';
+    text-transform: uppercase;
+}
+
+.card {
+    position: relative;
+    border: 1px solid #777777;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 32px;
+    overflow: hidden;
+    /* background: #77777777; */
+    background: linear-gradient(180deg, #00000077, #ffffff77);
+    width: 300px;
+    min-height: 256px;
+}
+
+.card .background-image {
+    position: absolute;
+    z-index: -1;
+    width: 150%;
+    height: auto;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    opacity: 0.25;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 32px;
+}
+
+.list-container .card {
+    width: 100%;
+    margin: 16px 0px;
+}
